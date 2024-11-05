@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>interesting in St.P</title>
+</head>
+<body style="background-color: hwb(202 83% 0%);"> 
+</body>    
+<body style="font-family: Arial, sans-serif;">
+    <style>
+        body {
+            font-family: Titillium Web;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #394773;
+            padding: 10px 20px;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+        nav a:hover {
+            background-color: #545968;
+            border-radius: 5px;
+        }
+    </style>
+    <style>
+        body {
+            font-family: Titillium Web;
+            background-color: hwb(202 83% 0%);
+            text-align: center;
+        }
+        header, nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        nav a.active {
+            font-weight: bold;
+        }
+        .passport-container {
+            position: relative;
+            display: inline-block;
+        }
+        .passport-container img {
+            width: 600px;
+            height: auto;
+        }
+        .text {
+            position: absolute;
+            color: black;
+            font-size: 1.2em;
+        }
+        #issued {
+            top: 90px;
+            left: 170px;
+        }
+        #surname {
+            top: 468px;
+            left: 350px;
+        }
+        #name {
+            top: 530px;
+            left: 340px;
+        }
+        #father {
+            top: 561px;
+            left: 325px;
+        }
+        #gender {
+            top: 593px;
+            left: 231px;
+        }
+        #birthplace {
+            top: 623px;
+            left: 315px;
+        }
+        #birth {
+            top: 593px;
+            left: 350px;
+        }
+        #photo {
+            position: absolute;
+            top: 494px;
+            left: 40px;
+            width: 155px;
+            height: 209px;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #394773;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+    </style>
+</body>
+<header>
+    <h1 style="color: white;" align="center"> 
+        Жемчужины Невы</h1>
+        
+    <nav>
+        <a href="site.html">Главная</a>
+        <a href="about.html">О нас</a>
+        <a href="services.html">Услуги</a>
+        <a href="contact.html">Контакты</a>
+        <a href="http://www.hse.ru" target="_blank">При поддержке</a>
+        <a href="passport.html"><b>Паспорт</b></a>
+        <a href="task.html">Задача</a>
+        <a href="site.html#tg" target="_self"><img height="20px" src="tg.png"></a>    
+</header>
+
+<main>
+    <div class="passport-container">
+        <img src="fon.png" alt="Паспорт РФ">
+
+        <img id="photo" src="эвелина.jpg" alt="Фото Эвелины" title="Это Эвелина">
+
+        <div class="text" id="issued">ГУ МВД РОССИИ ПО Г. МОСКВЕ</div>
+        <div class="text" id="surname">КЛИМОВА</div>
+        <div class="text" id="name">ЭВЕЛИНА</div>
+        <div class="text" id="father">АЛЕКСАНДРОВНА</div>
+        <div class="text" id="gender">ЖЕН.</div>
+        <div class="text" id="birth">10.12.2003</div>
+        <div class="text" id="birthplace">ГОР. САНКТ-ПЕТЕРБУРГ</div>
+    </div>
+
+    <div class="button-container">
+        <button id="translateButton">Поменять</button>
+    </div>
+</main>
+<script src="pass.js"></script>
+<h5 id="tg" style="color: rgb(0, 0, 0); text-align: center;"> 
+    <a href="скрин.png" target="_blank"> 
+        <img height="400px" src="скрин.png" style="display: block; margin: 0 auto;"> 
+    </a> 
+    
+</h5>
+
+</body>
+</html>
